@@ -56,6 +56,9 @@
   height: 485px;
   cursor: pointer;
 
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+
   @media screen and($mobile) {
     &:not(:last-child) {
       margin-bottom: 130px;
