@@ -168,11 +168,6 @@
   top: 0;
   left: 0;
 
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -197,8 +192,8 @@
 .products-cards__flip-front {
   -webkit-transform: rotateY(0deg);
   transform: rotateY(0deg);
-  // backface-visibility: hidden;
-  // -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .products-cards__flip-back {
