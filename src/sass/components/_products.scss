@@ -56,6 +56,9 @@
   height: 485px;
   cursor: pointer;
 
+  perspective: 1000;
+  -webkit-perspective: 1000;
+
   @media screen and($mobile) {
     &:not(:last-child) {
       margin-bottom: 130px;
