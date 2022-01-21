@@ -80,6 +80,7 @@
 
   transition: transform var(--transition-params);
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
 }
 
 .products-cards__wrap--rose {
@@ -98,8 +99,8 @@
 .products-cards__wrap--yellow::before,
 .products-cards__wrap--green::before {
   content: '';
-  width: 250px;
-  height: 250px;
+  min-width: 250px;
+  min-height: 250px;
 
   position: absolute;
   left: 50%;
