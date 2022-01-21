@@ -167,7 +167,6 @@
   width: 100%;
   top: 0;
   left: 0;
-  visibility: visible;
 
   display: flex;
   flex-direction: column;
@@ -277,9 +276,10 @@
 }
 
 .products-cards__flip-back-text {
-  background-color: inherit;
+  //background-color: inherit;
   max-height: 215px;
   overflow-y: auto;
+  visibility: visible;
 
   margin-bottom: auto;
   padding-right: 10px;
