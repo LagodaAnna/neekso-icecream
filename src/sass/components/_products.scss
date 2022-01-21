@@ -99,8 +99,8 @@
 .products-cards__wrap--yellow::before,
 .products-cards__wrap--green::before {
   content: '';
-  min-width: 250px;
-  min-height: 250px;
+  width: 250px;
+  height: 250px;
 
   position: absolute;
   left: 50%;
